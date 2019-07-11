@@ -3,5 +3,11 @@ Prediction of Google Stock price for 2017 with a record from 2012 to 2016 by LST
 
 source of dataset: https://www.superdatascience.com/pages/deep-learning
 
+Recurrent neural networks(RNN) have connections that have loops, adding feedback and memory to the networks over time. This memory allows this type of network to learn and generalize across sequences of inputs rather than individual patterns.
+
+A powerful type of Recurrent Neural Network called the Long Short-Term Memory Network (LSTM) has been shown to be particularly effective when stacked into a deep configuration, achieving state-of-the-art results on a diverse array of problems from language translation to automatic captioning of images and videos.
+
+Here I will be using LSTM to predict the stock price of a given date considering 60 previous prices as the time step.
+The dataset contains stock prices from 2012 to 2016 as traing data. Prices of January, 2017 will be used to test our model.
 
 
