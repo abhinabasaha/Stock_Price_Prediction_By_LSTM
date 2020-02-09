@@ -8,7 +8,7 @@ Recurrent neural networks(RNN) have connections that have loops, adding feedback
 A powerful type of Recurrent Neural Network called the Long Short-Term Memory Network (LSTM) has been shown to be particularly effective when stacked into a deep configuration, achieving state-of-the-art results on a diverse array of problems from language translation to automatic captioning of images and videos.
 
 Two most important problems regarding RNN are:
-1) Vanishing Pradient Problem
+1) Vanishing Gradient Problem
 2) Exploding Gradient
 
 Vanishing Gradient: Its is a situation where a deep multilayer feed-forward network or a recurrent neural network is unable to propagate useful gradient information from the output end of the model back to the layers near the input end of the model.
